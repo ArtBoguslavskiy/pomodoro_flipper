@@ -1,0 +1,15 @@
+{
+  "name": "fliper_pomodoro_timer",
+  "version": "1.0.0",
+  "description": "This is pomodoro timer for Flipper",
+  "main": "pomodoro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flipper",
+    "pomodoro"
+  ],
+  "author": "Artem Bohuslavsky",
+  "license": "ISC"
+}

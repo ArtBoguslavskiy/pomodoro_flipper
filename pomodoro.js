@@ -20,6 +20,9 @@ function startTimer(duration) {
   print('You select', duration, 'minutes');
   let color = getTimerColor(duration);
   for (let i = 0; i < duration * 60; i++) {
+    if(i && i % 60 === 0) {
+      print(duration - i / 60, 'minutes left');
+    }
     notify.blink(color, 'long');
     delay(1000);
   }

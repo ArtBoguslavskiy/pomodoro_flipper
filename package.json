@@ -1,6 +1,6 @@
 {
   "name": "fliper_pomodoro_timer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is pomodoro timer for Flipper",
   "main": "pomodoro.js",
   "scripts": {
